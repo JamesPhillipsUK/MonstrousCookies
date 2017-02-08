@@ -1,0 +1,55 @@
+/**
+ * MonstrousCookies, created by James Phillips <james@jamesphillipsuk.com> September 2016.  
+ * MonstrousCookies is a PHP plugin to allow sites to comply with the EU Cookie Law by informing users of a site's cookie policy.
+ * Style.css is a part of MonstrousCookies.
+ * 
+ * Copyright (C) 2016 James Phillips, Released under the GNU GPL v3.0 or later.
+ * 
+ * This program is free software: you can redistribute it and/or modify it under the terms of the 
+ * GNU General Public License as published by the Free Software Foundation, either version 3 of the License, 
+ * or (at your option) any later version.  This program is distributed in the hope that it will be useful, 
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or 
+ * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.   
+ * You should have received a copy of the GNU General Public License along with this program.
+ * If not, see <http://www.gnu.org/licenses/>.
+ * 
+ * Edited 08th February 2017
+**/
+/*2. Cookie Banner*/
+#CookieMonster
+{
+	margin:0 0 0 0;
+	padding:0 0 0 0;
+	width:100%;
+	height:auto;
+	min-height:2rem;
+	color:#000000;
+	background-color:#6666FF;
+	z-index:100000;
+	position:fixed;
+	display:block;
+	bottom:0;
+}
+
+#Cookies
+{
+	margin:0.5rem 0 0.5rem 0.2rem;
+	padding:0 0 0 0;
+	text-align:left;
+	font-size:1rem;
+	color:#000000;
+	display:inline;
+}
+
+#Exit
+{
+	margin:0.2rem 0.2rem 0 0;
+	text-align:right;
+	float:right;
+	font-size:0.6rem;
+	color:#000000;
+  background-color:FF0000;
+	display:inline;
+	min-height:0.6rem;
+	min-width:0.6rem
+}
