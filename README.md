@@ -1,5 +1,5 @@
 # MonstrousCookies
-A simple, customizable PHP plugin to allow websites to comply with the EU 'Cookie Law'
+A simple, customizable PHP plugin to allow websites to comply with the EU 'Cookie Law'.
 
 ## About
 MonstrousCookies is, as it says above, a plugin to help websites comply with the EU 'Cookie Law'.  Information about this change in law, and how to comply with it can be found from the Information Commissioner's Office [here](https://ico.org.uk/for-organisations/guide-to-pecr/cookies-and-similar-technologies/ "ICO Guidance on cookies").
