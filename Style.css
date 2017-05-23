@@ -15,6 +15,7 @@
  * 
  * Edited 08th February 2017
 **/
+
 /*2. Cookie Banner*/
 #CookieMonster
 {
@@ -48,7 +49,7 @@
 	float:right;
 	font-size:0.6rem;
 	color:#000000;
-  background-color:FF0000;
+	background-color:FF0000;
 	display:inline;
 	min-height:0.6rem;
 	min-width:0.6rem
