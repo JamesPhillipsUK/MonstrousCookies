@@ -9,7 +9,10 @@ I'm a fan of simple instructions, so here's how to install the MonstrousCookies 
 
 1. Download all of the files from this repository into your web root folder.
 2. Open CookieNotice.php in a text editor, do a Find and replace for `http://ThisSiteName/cookies/` with the URL of your Cookie Policy, replace `mailto:webmaster@ThisSiteName` with `mailto:`followed by your email address, and replace `ThisSiteNameCookies` with the name you want to give the cookie that monitors allowing cookies on the site.
-3. Replace any instances of the phrase `<body>` with an instance of `<?php include('./Header.php'); ?>`.
+3. Replace any instances of the phrase `</head>` ... `<body>` with an instance of:
+```PHP
+<?php include('./Header.php'); ?>
+```
  * Note: any pages saved as a `.htm` or `.html` to which you have done the above will beed to be renamed as a `.php`
 
 ##  The Cookie Stuff
