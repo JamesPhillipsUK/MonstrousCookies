@@ -19,6 +19,7 @@
 //To use this file, type <?php include('./Header.php'); ?> instead of the <body> tag in your HTML.
 ?>
 		<link rel="stylesheet" type="text/css" href="./Style.css">
+	</head>
 	<body>
 		<?php
 			include ('./JavaScriptNotice.php');
