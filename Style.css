@@ -47,14 +47,14 @@
 /*The Exit Button*/
 #Exit
 {
-	margin:0.2rem 0.2rem 0 0;
-	padding:0.2rem;
-	border-radius:0.1rem;
+	margin:0.2rem 0.8rem 0 0;
+	border:0;
+	border-radius:0.2rem;
 	text-align:right;
 	float:right;
 	font-size:0.6rem;
 	color:#FFF; /*Change the button text colour here!*/
-	background:FF1A1A; /*Change the button background colour here!*/
+	background:#FF1A1A; /*Change the button background colour here!*/
 	display:inline;
 	min-height:1rem;
 	min-width:1rem;
