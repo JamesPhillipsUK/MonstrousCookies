@@ -18,14 +18,13 @@
 	//Quick flyout notice for cookies.
 
 	$value="On";
-	//setcookie( "ThisSiteNameCookies", '' , 0, '/' );
 
-	if ( !isset ($_COOKIE['ThisSiteNameCookies']) || $_COOKIE['ThisSiteNameCookies'] != $value )
+	if ( !isset ($_COOKIE['ThisSiteNameCookies']) || $_COOKIE['ThisSiteNameCookies'] != $value ) //Please re-name ThisSiteNameCookies with the name of your website.
 	{
 ?>
 		<div id="CookieMonster">
-			<p id="Cookies">By using this site, you agree to <a href="http://ThisSiteName/cookies/">our cookie policy</a></p>  
-			<button id="Exit">X</button>
+			<p id="Cookies">By using this site, you agree to <a href="http://ThisSiteName/cookies/">our cookie policy.</a></p>  <!-- Replace http://ThisSiteName/cookies/ with a link to your cookies page -->
+			<button id="Exit">X</button><!-- You can replace X with Exit for better readability -->
 		</div>
 		<script>
 			var button = document.getElementById('Exit');
@@ -46,14 +45,14 @@
 			};
 		</script>
 <?php
-		setcookie("ThisSiteNameCookies", $value,  time() + (86400 * 10));
+		setcookie("ThisSiteNameCookies", $value,  time() + (86400 * 10)); //Again, please re-name ThisSiteNameCookies with the name of your website.
 	}
 	elseif ( $_COOKIE['ThisSiteNameCookies'] == $value )
 	{
 		//there is a ThisSiteNameCookies session.  Someone has seen the notice.  Do nothing.
 	}
-	else
+	else //This should never happen, but here's a backup measure just in case.
 	{
-		echo '<div id="CookieMonster"><p id="Cookies">Something&#39;s gone wrong!  Please <a href="mailto:webmaster@ThisSiteName">inform the site!</a></p></div>';
+		echo '<div id="CookieMonster"><p id="Cookies">Something&#39;s gone wrong!  Please <a href="mailto:webmaster@ThisSiteName">inform the site!</a></p></div>'; //Please replace webmaster@ThisSiteName with your email address
 	}
 ?>

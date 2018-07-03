@@ -14,43 +14,48 @@
  * If not, see <http://www.gnu.org/licenses/>.
  * 
  * Edited 08th February 2017
+ * Edited 03rd July 2018
 **/
 
-/*2. Cookie Banner*/
+/*Cookie Banner*/
 #CookieMonster
 {
-	margin:0 0 0 0;
-	padding:0 0 0 0;
+	margin:0;
+	padding:0;
 	width:100%;
 	height:auto;
 	min-height:2rem;
-	color:#000000;
-	background-color:#6666FF;
+	color:#000; /*Change the banner foreground colour here!*/
+	background:#EFEFFF; /*Change the banner background colour here!*/
 	z-index:100000;
 	position:fixed;
 	display:block;
 	bottom:0;
 }
 
+/*Text within the Cookie Banner*/
 #Cookies
 {
 	margin:0.5rem 0 0.5rem 0.2rem;
-	padding:0 0 0 0;
+	padding:0;
 	text-align:left;
 	font-size:1rem;
-	color:#000000;
+	color:#000; /*Change the banner text colour here!*/
 	display:inline;
 }
 
+/*The Exit Button*/
 #Exit
 {
-	margin:0.2rem 0.2rem 0 0;
+	margin:0.2rem 0.8rem 0 0;
+	border:0;
+	border-radius:0.2rem;
 	text-align:right;
 	float:right;
 	font-size:0.6rem;
-	color:#000000;
-	background-color:FF0000;
+	color:#FFF; /*Change the button text colour here!*/
+	background:#FF1A1A; /*Change the button background colour here!*/
 	display:inline;
-	min-height:0.6rem;
-	min-width:0.6rem
+	min-height:1rem;
+	min-width:1rem;
 }
